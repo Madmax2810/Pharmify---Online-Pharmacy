@@ -52,8 +52,8 @@ if(isset($_POST['add_to_cart'])){
 <section class="home">
 
    <div class="content">
-      <h3>Hand Picked Book to your door.</h3>
-      <p>Lorem ipsum dolor sit amet.</p>
+      <h3>From Pharmacies to your door.</h3>
+      <p>Your Trusted Online Pharmacy for Quality Care and Convenience</p>
    </div>
 
 </section>
@@ -64,8 +64,8 @@ if(isset($_POST['add_to_cart'])){
 <section class="home-contact">
 
    <div class="content">
-      <h3>have any questions?</h3>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque cumque exercitationem repellendus, amet ullam voluptatibus?</p>
+      <h3>Any Issues?</h3>
+      <p>Have a question or need assistance? Our friendly team is here to help! Reach out to us via phone, email, or through our online contact form, and we'll get back to you promptly</p>
       <a href="contact.php" class="white-btn">contact us</a>
    </div>
 
