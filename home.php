@@ -54,7 +54,6 @@ if(isset($_POST['add_to_cart'])){
    <div class="content">
       <h3>Hand Picked Book to your door.</h3>
       <p>Ur mum is Gay</p>
-      <a href="about.php" class="white-btn">discover more</a>
    </div>
 
 </section>
@@ -94,23 +93,6 @@ if(isset($_POST['add_to_cart'])){
 
 </section>
 
-<section class="about">
-
-   <div class="flex">
-
-      <div class="image">
-         <img src="images/about-img.jpg" alt="">
-      </div>
-
-      <div class="content">
-         <h3>about us</h3>
-         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit quos enim minima ipsa dicta officia corporis ratione saepe sed adipisci?</p>
-         <a href="about.php" class="btn">read more</a>
-      </div>
-
-   </div>
-
-</section>
 
 <section class="home-contact">
 
@@ -126,7 +108,7 @@ if(isset($_POST['add_to_cart'])){
 
 
 
-
+<?php include 'footer.php'; ?>
 
 <!-- custom js file link  -->
 <script src="js/script.js"></script>
