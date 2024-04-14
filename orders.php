@@ -33,7 +33,6 @@ if(!isset($user_id)){
 
 <div class="heading">
    <h3>your orders</h3>
-   <p> <a href="home.php">home</a> / orders </p>
 </div>
 
 <section class="placed-orders">
