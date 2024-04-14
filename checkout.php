@@ -16,7 +16,7 @@ if(isset($_POST['order_btn'])){
    $number = $_POST['number'];
    $email = mysqli_real_escape_string($conn, $_POST['email']);
    $method = mysqli_real_escape_string($conn, $_POST['method']);
-   $address = mysqli_real_escape_string($conn, 'flat no. '. $_POST['flat'].', '. $_POST['street'].', '. $_POST['city'].', '. $_POST['country'].' - '. $_POST['pin_code']);
+   $address = mysqli_real_escape_string($conn, $_POST['address']);
    $placed_on = date('d-M-Y');
 
    $cart_total = 0;
@@ -122,8 +122,8 @@ if(isset($_POST['order_btn'])){
             </select>
          </div>
          <div class="inputBox">
-            <span>address line 01 :</span>
-            <input type="number" min="0" name="flat" required placeholder="e.g. flat no.">
+            <span>address:</span>
+            <input min="0" name="address" required>
          </div>
       </div>
       <input type="submit" value="order now" class="btn" name="order_btn">
