@@ -53,10 +53,12 @@ if(isset($_POST['add_to_cart'])){
 
    <div class="content">
       <h3>Hand Picked Book to your door.</h3>
-      <p>Ur mum is Gay</p>
+      <p>Lorem ipsum dolor sit amet.</p>
    </div>
 
 </section>
+
+
 
 
 <section class="home-contact">
@@ -68,6 +70,8 @@ if(isset($_POST['add_to_cart'])){
    </div>
 
 </section>
+
+
 
 
 
