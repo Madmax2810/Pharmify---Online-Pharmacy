@@ -456,7 +456,7 @@ section{
 }
 
 .home-contact{
-   background-color: var(--black);
+   background-color: var(--white);
 }
 
 .home-contact .content{
@@ -468,13 +468,13 @@ section{
 .home-contact .content h3{
    font-size: 3rem;
    text-transform: uppercase;
-   color:var(--white);
+   color:var(--black);
 }
 
 .home-contact .content p{
    padding:1rem 0;
    line-height: 1.5;
-   color:var(--light-white);
+   color:var(--black);
    font-size: 1.7rem;
 }
 
