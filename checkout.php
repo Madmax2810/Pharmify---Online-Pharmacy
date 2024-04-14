@@ -85,7 +85,7 @@ if(isset($_POST['order_btn'])){
             $total_price = ($fetch_cart['price'] * $fetch_cart['quantity']);
             $grand_total += $total_price;
    ?>
-   <p> <?php echo $fetch_cart['name']; ?> <span>(<?php echo '$'.$fetch_cart['price'].'/-'.' x '. $fetch_cart['quantity']; ?>)</span> </p>
+   <p> <?php echo $fetch_cart['name']; ?> <span>(<?php echo '₹'.$fetch_cart['price'].'/-'.' x '. $fetch_cart['quantity']; ?>)</span> </p>
    <?php
       }
    }else{
@@ -160,7 +160,7 @@ if(isset($_POST['order_btn'])){
 
 
 
-<?php include 'footer.php'; ?>
+
 
 <!-- custom js file link  -->
 <script src="js/script.js"></script>
