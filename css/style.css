@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 :root{
-   --purple:#8e44ad;
-   --red:#c0392b;
+   --teal:#57b891;
+   --red:#a3483d;
    --orange:#f39c12;
    --black:#333;
-   --white:#fff;
+   --white:#e8f3d6;
    --light-color:#666;
    --light-white:#ccc;
    --light-bg:#f5f5f5;
@@ -23,7 +23,7 @@
 }
 
 *::selection{
-   background-color: var(--purple);
+   background-color: var(--teal);
    color:var(--white);
 }
 
@@ -37,7 +37,7 @@
 }
 
 *::-webkit-scrollbar-thumb{
-   background-color: var(--purple);
+   background-color: var(--teal);
 }
 
 html{
@@ -117,7 +117,7 @@ section{
 
 .white-btn,
 .btn{
-   background-color: var(--purple);
+   background-color: var(--teal);
 }
 
 .option-btn{
@@ -158,7 +158,7 @@ section{
 }
 
 .heading p a{
-   color:var(--purple);
+   color:var(--teal);
 }
 
 .heading p a:hover{
@@ -216,7 +216,7 @@ section{
 }
 
 .form-container form p a{
-   color:var(--purple);
+   color:var(--teal);
 }
 
 .form-container form p a:hover{
@@ -264,7 +264,7 @@ section{
 }
 
 .header .header-1 .flex .share a:hover{
-   color:var(--purple);
+   color:var(--teal);
 }
 
 .header .header-1 .flex p{
@@ -273,7 +273,7 @@ section{
 }
 
 .header .header-1 .flex p a{
-   color:var(--purple);
+   color:var(--teal);
 }
 
 .header .header-1 .flex p a:hover{
@@ -282,7 +282,7 @@ section{
 
 .header .header-2 .flex .logo{
    font-size: 2.5rem;
-   color:var(--purple);
+   color:var(--teal);
 }
 
 .header .header-2 .flex .navbar a{
@@ -292,7 +292,7 @@ section{
 }
 
 .header .header-2 .flex .navbar a:hover{
-   color:var(--purple);
+   color:var(--teal);
    text-decoration: underline;
 }
 
@@ -304,7 +304,7 @@ section{
 }
 
 .header .header-2 .flex .icons > *:hover{
-   color:var(--purple);
+   color:var(--teal);
 }
 
 #menu-btn{
@@ -336,7 +336,7 @@ section{
 }
 
 .header .header-2 .flex .user-box p span{
-   color:var(--purple);
+   color:var(--teal);
 }
 
 .header .header-2 .flex .user-box .delete-btn{
@@ -836,7 +836,7 @@ section{
 }
 
 .placed-orders .box-container .box p span{
-   color:var(--purple);
+   color:var(--teal);
 }
 
 .search-form form{
@@ -898,12 +898,12 @@ section{
 
 .footer .box-container .box p i,
 .footer .box-container .box a i{
-   color:var(--purple);
+   color:var(--teal);
    padding-right: .5rem;
 }
 
 .footer .box-container .box a:hover{
-   color:var(--purple);
+   color:var(--teal);
    text-decoration: underline;
 }
 
@@ -917,7 +917,7 @@ section{
 }
 
 .footer .credit span{
-   color:var(--purple);
+   color:var(--teal);
 }
 
 
