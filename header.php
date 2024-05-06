@@ -18,10 +18,10 @@ if(isset($message)){
          <a href="home.php" class="logo">Pharmify</a>
 
          <nav class="navbar">
-            <a href="home.php">home</a>
-            <a href="shop.php">shop</a>
-            <a href="contact.php">contact</a>
-            <a href="orders.php">orders</a>
+            <a href="home.php">Home</a>
+            <a href="shop.php">Shop</a>
+            <a href="contact.php">Contact</a>
+            <a href="orders.php">Orders</a>
          </nav>
 
          <div class="icons">
@@ -37,7 +37,7 @@ if(isset($message)){
          <div class="user-box">
             <p>username : <span><?php echo $_SESSION['user_name']; ?></span></p>
             <p>email : <span><?php echo $_SESSION['user_email']; ?></span></p>
-            <a href="logout.php" class="delete-btn">logout</a>
+            <a href="logout.php" class="delete-btn">Logout</a>
          </div>
       </div>
    </div>
