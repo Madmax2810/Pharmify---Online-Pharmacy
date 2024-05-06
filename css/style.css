@@ -455,10 +455,6 @@ section{
    color:var(--light-color);
 }
 
-.home-contact{
-   background-color: var(--white);
-}
-
 .home-contact .content{
    max-width: 60rem;
    text-align: center;
